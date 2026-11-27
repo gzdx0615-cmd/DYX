@@ -10,7 +10,7 @@ if ! command -v shortcuts >/dev/null 2>&1; then
 fi
 mkdir -p "$HOME/Downloads"
 dest="$(mktemp -d "$HOME/Downloads/DYX-Shortcut.XXXXXX")"
-original="https://raw.githubusercontent.com/gzdx0615-cmd/DYX/main/Douyin-unsigned.shortcut"
+original="https://raw.githubusercontent.com/gzdx0615-cmd/DYX/c7ef372f4becac10d57bbe55e149039af9351697/Douyin-unsigned.shortcut"
 valid=0
 for source_url in "https://v4.gh-proxy.org/$original" "$original"; do
   if curl --fail --location --connect-timeout 10 --max-time 60 "$source_url" --output "$dest/Douyin-unsigned.shortcut"; then

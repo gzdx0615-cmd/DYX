@@ -10,7 +10,7 @@ if ! command -v shortcuts >/dev/null 2>&1; then
 fi
 mkdir -p "$HOME/Downloads"
 dest="$(mktemp -d "$HOME/Downloads/DYX-Shortcut.XXXXXX")"
-source_url="https://raw.githubusercontent.com/gzdx0615-cmd/DYX/main/X-Video-Share-unsigned.shortcut"
+source_url="https://raw.githubusercontent.com/gzdx0615-cmd/DYX/c7ef372f4becac10d57bbe55e149039af9351697/X-Video-Share-unsigned.shortcut"
 curl --fail --location --retry 2 "$source_url" --output "$dest/X-Video-Share-unsigned.shortcut"
 actual="$(shasum -a 256 "$dest/X-Video-Share-unsigned.shortcut" | awk '{print $1}')"
 if [[ "$actual" != "b0328f08137f61f17b0251dc29dce7b6b4166eab63ea1dd73e19e0a3cb0eb575" ]]; then
