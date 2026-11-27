@@ -22,7 +22,7 @@
 在 Mac 终端运行：
 
 ```bash
-curl -fL https://v4.gh-proxy.org/https://raw.githubusercontent.com/gzdx0615-cmd/DYX/main/install-unified-mac.sh -o /tmp/dyx-install-unified.sh && /bin/bash /tmp/dyx-install-unified.sh
+curl -fL https://v4.gh-proxy.org/https://raw.githubusercontent.com/gzdx0615-cmd/DYX/fe12d371dbe7c341b1d24bcf36ebf612e5087d28/install-unified-mac.sh -o /tmp/dyx-install-unified.sh && /bin/bash /tmp/dyx-install-unified.sh
 ```
 
 这是固定版本的安装命令，避免代理缓存使你下载到旧文件。安装脚本还会校验源文件 SHA-256，再调用苹果 `shortcuts sign --mode anyone` 并打开导入窗口。源文件优先通过 GitHub 代理下载，失败或校验不一致时尝试直连。
