@@ -1,0 +1,11 @@
+{
+  "version": "1.1.0",
+  "parser_url": "https://douyin.the847696611.top/?url=",
+  "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Mobile/15E148 Safari/604.1",
+  "media_key": "data.media",
+  "messages": {
+    "success": "媒体已保存到相册",
+    "invalid_link": "未识别到抖音链接，请复制作品分享文案后重试",
+    "parse_failed": "未获取到媒体地址，请稍后重试"
+  }
+}

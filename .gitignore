@@ -1,0 +1,10 @@
+
+# Private local test inputs and downloads
+*.private.json
+private-cases*.json
+private-fixtures/
+unified-online/
+work/
+
+__pycache__/
+*.pyc
